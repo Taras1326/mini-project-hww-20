@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+
+  <!-- PNotify -->
+  <link rel="stylesheet" href="https://unpkg.com/@pnotify/core/dist/PNotify.css" />
+  <link rel="stylesheet" href="https://unpkg.com/@pnotify/core/dist/BrightTheme.css" />
+
+  <!-- basicLightbox -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/basiclightbox/dist/basicLightbox.min.css">
+</head>
+<body>
+
+    <form class="search-form" id="search-form">
+        <input
+          type="text"
+          name="query"
+          autocomplete="off"
+          placeholder="Search images..."
+        />
+      </form>
+    
+      <ul class="gallery"></ul>
+    
+      <button type="button" class="load-more hidden">Завантажити ще</button>
+
+    <script type="module" src="./app.js"></script>
+    <script src="https://unpkg.com/@pnotify/core/dist/PNotify.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/basiclightbox/dist/basicLightbox.min.js"></script>
+</body>
+</html>
